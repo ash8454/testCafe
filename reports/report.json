@@ -1,0 +1,286 @@
+[
+  {
+    "description": "  As an Engineer, I want to validate all the functionality of the Business Services Page",
+    "keyword": "Feature",
+    "name": "Business Services Page",
+    "line": 2,
+    "id": "business-services-page",
+    "tags": [
+      {
+        "name": "@BusinessServices",
+        "line": 1
+      }
+    ],
+    "uri": "features/businessServices.feature",
+    "elements": [
+      {
+        "id": "business-services-page;delete-service",
+        "keyword": "Scenario",
+        "line": 67,
+        "name": "Delete Service",
+        "tags": [
+          {
+            "name": "@BusinessServices",
+            "line": 1
+          },
+          {
+            "name": "@Regression",
+            "line": 59
+          },
+          {
+            "name": "@Delete",
+            "line": 59
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4535000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I am logged in VM successfully",
+            "match": {
+              "location": "features/step_definitions/loginPageSteps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13728000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I click on \"Business Services\" icon on left nav",
+            "match": {
+              "location": "features/step_definitions/dashboardPageSteps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6541000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "\"Business Services\" page is displayed",
+            "match": {
+              "location": "features/step_definitions/dashboardPageSteps.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7651000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 61,
+            "name": "I am on Business Services page",
+            "match": {
+              "location": "features/step_definitions/businessServicesSteps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8795000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 62,
+            "name": "I delete the \"Template\" service",
+            "match": {
+              "location": "features/step_definitions/businessServicesSteps.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 133076000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 63,
+            "name": "\"Template\" service is deleted successfully",
+            "match": {
+              "location": "features/step_definitions/businessServicesSteps.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 65000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:81"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:75"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "business-services-page;delete-service",
+        "keyword": "Scenario",
+        "line": 68,
+        "name": "Delete Service",
+        "tags": [
+          {
+            "name": "@BusinessServices",
+            "line": 1
+          },
+          {
+            "name": "@Regression",
+            "line": 59
+          },
+          {
+            "name": "@Delete",
+            "line": 59
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2779000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I am logged in VM successfully",
+            "match": {
+              "location": "features/step_definitions/loginPageSteps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8554000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I click on \"Business Services\" icon on left nav",
+            "match": {
+              "location": "features/step_definitions/dashboardPageSteps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5878000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "\"Business Services\" page is displayed",
+            "match": {
+              "location": "features/step_definitions/dashboardPageSteps.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2164000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 61,
+            "name": "I am on Business Services page",
+            "match": {
+              "location": "features/step_definitions/businessServicesSteps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7284000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 62,
+            "name": "I delete the \"Automation\" service",
+            "match": {
+              "location": "features/step_definitions/businessServicesSteps.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 47830000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 63,
+            "name": "\"Automation\" service is deleted successfully",
+            "match": {
+              "location": "features/step_definitions/businessServicesSteps.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:81"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:75"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

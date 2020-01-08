@@ -1,0 +1,36 @@
+{
+  "name": "ap2-automation-framework",
+  "version": "1.0.0",
+  "description": "Automation Tests for AP2",
+  "scripts": {
+    "test": "NODE_ENV=local gherkin-testcafe chrome:headless ./src/step_definitions/*.js ./src/features/*.feature --skip-js-errors --tags @Login",
+    "sanity-test-maps": "NODE_ENV=local node ./src/runner.js --skip-js-errors --tags @Sanity_Maps",
+    "sanity-test-appwizards": "NODE_ENV=local gherkin-testcafe chrome:headless ./src/step_definitions/*.js ./src/features/*.feature --skip-js-errors --tags @Sanity_AppWizards"
+  },
+  "author": "Ashok Tulachan",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "cross-env": "^6.0.3",
+    "cucumber": "^5.1.0",
+    "cucumber-html-reporter": "^5.0.2",
+    "custom-env": "^1.0.2",
+    "fs": "0.0.1-security",
+    "log4js": "^5.3.0",
+    "mocha": "^6.2.2",
+    "multiple-cucumber-html-reporter": "^1.13.1",
+    "npm-run-all": "^4.1.5",
+    "tape": "^4.11.0",
+    "testcafe": "^1.6.0",
+    "testcafe-reporter-cucumber-json": "^4.0.0",
+    "winston": "^3.2.1",
+    "xpath-to-css": "^1.0.4",
+    "xpath2css": "^0.6.2",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "gherkin-testcafe": "^2.4.2"
+  },
+  "dependencies": {
+    "eslint": "^6.5.1"
+  }
+}
