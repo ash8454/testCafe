@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Automation Tests for AP2",
   "scripts": {
-    "test": "NODE_ENV=local gherkin-testcafe chrome:headless ./src/step_definitions/*.js ./src/features/*.feature --skip-js-errors --tags @XRAY-14",
+    "test": "NODE_ENV=local gherkin-testcafe chrome:headless ./src/step_definitions/*.js ./src/features/*.feature --skip-js-errors --tags @XRAY-14 --reporter cucumber-json:reports/report.json  --reporter-app-name='Sanity Tests' --reporter-app-version='0.0.1'",
     "sanity-test-maps": "NODE_ENV=local node ./src/runner.js --skip-js-errors --tags @Sanity_Maps",
     "sanity-test-appwizards": "NODE_ENV=local gherkin-testcafe chrome:headless ./src/step_definitions/*.js ./src/features/*.feature --skip-js-errors --tags @Sanity_AppWizards"
   },
